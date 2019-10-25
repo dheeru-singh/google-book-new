@@ -1,0 +1,37 @@
+body{
+    /* background-color:red; */
+}
+form{
+    border: 1px solid #d4d4d4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+form .btn{
+    border-radius: 0;
+}
+.book-result .img-box{
+    float: left;
+    width: 150px;
+}
+.book-result .img-box img{
+    width: 100%;
+}
+.book-result .btn{
+    float: right;
+    margin: 0px 5px;
+    border-radius: 0px;
+}
+.book-result .right-box{
+    margin-left:170px
+}
+
+@media only screen and (max-width: 600px) {
+    .book-result .img-box{
+        float: initial;
+        margin: 0 auto;
+    }
+    .book-result .right-box{
+        margin-left: 0;
+        margin-top: 0px;
+    }
+}
